@@ -1679,7 +1679,8 @@ body {
 		justify-content: space-around
 	}
 	.work-request--options .options-a,
-	.work-request--options .options-b {
+	.work-request--options .options-b,
+	.work-request--options .options-c {
 		display: block;
 		width: auto;
         margin: 0 15px;
@@ -1703,8 +1704,8 @@ body {
 
 @media (max-width: 600px) {
 	.work-request--options label {
-		width: 110px;
-        height: 110px;
+		width: 70px;
+        height: 70px;
 		margin-bottom: 15px;
 		font-size: 14px
 	}
@@ -1856,7 +1857,8 @@ body {
 
 @media (max-width: 600px) {
 	.outer-nav>li {
-		font-size: 34px
+        font-size: 25px;
+        margin: 0px -35px;
 	}
 }
 
